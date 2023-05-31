@@ -1,0 +1,84 @@
+body{
+    direction: rtl;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.frame{
+    display: inline-grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(6,200px);
+    gap: 10px;
+}
+
+.frame>div{
+    background-color: aquamarine;
+}
+
+.frame>div:first-child{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: darkblue;
+}
+
+.frame>div:nth-child(2){
+    background-image:url('images/Rectangle 501.png')
+}
+
+.frame>div:nth-child(3){
+    background-image:url('images/Rectangle 502.png')
+}
+
+.frame>div:nth-child(4){
+    background-image:url('images/Rectangle 503.png')
+}
+
+.frame>div:nth-child(5){
+    background-image:url('images/Rectangle 504.png')
+}
+
+.frame>div:nth-child(6){
+    background-image:url('images/Rectangle 505.png')
+}
+
+.frame>div:nth-child(7){
+    background-image:url('images/Rectangle 506.png')
+}
+
+.frame>div:nth-child(8){
+    background-image:url('images/Rectangle 507.png')
+}
+
+.frame>div:nth-child(9){
+    background-image:url('images/Rectangle 508.png')
+}
+
+.frame>div:nth-child(10){
+    background-image:url('images/Rectangle 509.png')
+}
+
+.frame>div:nth-child(11){
+    background-image:url('images/Rectangle 510.png')
+}
+
+.frame>div:nth-child(12){
+    background-image:url('images/Rectangle 511.png')
+}
+
+.frame>div:nth-child(13){
+    background-image:url('images/Rectangle 512.png')
+}
+
+.frame>div:nth-child(14){
+    background-image:url('images/Rectangle 513.png')
+}
+
+.frame>div:nth-child(15){
+    background-image:url('images/Rectangle 514.png')
+}
+
+.frame>div:last-child{
+    grid-column: 3/5;
+    grid-row: 4/7;
+    background-color: blueviolet;
+}
