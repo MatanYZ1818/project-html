@@ -1,113 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
-body{
-    direction: rtl;
-    background-color: aliceblue;
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  direction: rtl;
+  background-color: aliceblue;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
 }
 
-.top{
-    height: 60px;
-    background-color: white;
-    z-index: 200;
-    position: sticky;
-    top: 0;
-    display: inline-block;
-    width: 100%;
-    text-align: right;
+.top {
+  height: 60px;
+  background-color: white;
+  z-index: 200;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
 }
 
-.top img{
-    height: 1em;
-    display: inline-block;
-    margin-bottom: -3px;
-    margin-right: 10px;
+.top img {
+  height: 1em;
+  display: inline-block;
+  margin-bottom: -3px;
+  margin-right: 10px;
 }
 
-a{
-    display: block;
-    width: fit-content;
-    margin-right: 170px;
-    color: blue;
-    text-decoration: none;
+a {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 170px;
+  color: blue;
+  text-decoration: none;
 }
 
-.frame{
-    display: inline-grid;
-    grid-template-columns: repeat(4,200px);
-    grid-template-rows: repeat(6,200px);
-    gap: 10px;
+.frame {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(6, 200px);
+  gap: 10px;
 }
 
-.frame>div{
-    background-color: aquamarine;
+.frame > div {
+  background-color: aquamarine;
 }
-
-.frame>div:first-child{
-    grid-column: 1/3;
-    grid-row: 1/3;
-    background-color: darkblue;
+.frame > div div:first-child {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  background-color: darkblue;
 }
-
-.frame>div:nth-child(2){
-    background-image:url('images/Rectangle 501.png')
+.frame > div div:first-child h2 {
+  margin: auto;
+  color: #0EE1DA;
 }
-
-.frame>div:nth-child(3){
-    background-image:url('images/Rectangle 502.png')
+.frame > div div:first-child p {
+  margin: auto;
 }
-
-.frame>div:nth-child(4){
-    background-image:url('images/Rectangle 503.png')
+.frame > div:nth-child(2) {
+  background-image: url("images/Rectangle 501.png");
 }
-
-.frame>div:nth-child(5){
-    background-image:url('images/Rectangle 504.png')
+.frame > div div:nth-child(3) {
+  background-image: url("images/Rectangle 502.png");
 }
-
-.frame>div:nth-child(6){
-    background-image:url('images/Rectangle 505.png')
+.frame > div div:nth-child(4) {
+  background-image: url("images/Rectangle 503.png");
 }
-
-.frame>div:nth-child(7){
-    background-image:url('images/Rectangle 506.png')
+.frame > div div:nth-child(5) {
+  background-image: url("images/Rectangle 503.png");
 }
-
-.frame>div:nth-child(8){
-    background-image:url('images/Rectangle 507.png')
+.frame > div div:nth-child(6) {
+  background-image: url("images/Rectangle 505.png");
 }
-
-.frame>div:nth-child(9){
-    background-image:url('images/Rectangle 508.png')
+.frame > div div:nth-child(7) {
+  background-image: url("images/Rectangle 506.png");
 }
-
-.frame>div:nth-child(10){
-    background-image:url('images/Rectangle 509.png')
+.frame > div div:nth-child(8) {
+  background-image: url("images/Rectangle 507.png");
 }
-
-.frame>div:nth-child(11){
-    background-image:url('images/Rectangle 510.png')
+.frame > div div:nth-child(9) {
+  background-image: url("images/Rectangle 508.png");
 }
-
-.frame>div:nth-child(12){
-    background-image:url('images/Rectangle 511.png')
+.frame > div div:nth-child(10) {
+  background-image: url("images/Rectangle 509.png");
 }
-
-.frame>div:nth-child(13){
-    background-image:url('images/Rectangle 512.png')
+.frame > div div:nth-child(11) {
+  background-image: url("images/Rectangle 510.png");
 }
-
-.frame>div:nth-child(14){
-    background-image:url('images/Rectangle 513.png')
+.frame > div div:nth-child(12) {
+  background-image: url("images/Rectangle 511.png");
 }
-
-.frame>div:nth-child(15){
-    background-image:url('images/Rectangle 514.png')
+.frame > div div:nth-child(13) {
+  background-image: url("images/Rectangle 512.png");
 }
-
-.frame>div:last-child{
-    grid-column: 3/5;
-    grid-row: 4/7;
-    background-color: blueviolet;
+.frame > div div:nth-child(14) {
+  background-image: url("images/Rectangle 513.png");
 }
+.frame > div div:nth-child(15) {
+  background-image: url("images/Rectangle 514.png");
+}
+.frame > div div:last-child {
+  grid-column: 3/5;
+  grid-row: 4/7;
+  background-color: blueviolet;
+}/*# sourceMappingURL=style.css.map */

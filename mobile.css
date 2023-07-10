@@ -1,0 +1,17 @@
+@media (max-width:767px) {
+    .form_wrapper{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .triple_container{
+        flex-direction: column;
+    }
+
+    .project_card{
+        width: 100%;
+        box-sizing: border-box;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
