@@ -14,17 +14,26 @@
     <div class="section top">
         <nav>
             <ul>
-                <li><a href="#">ראשי</a></li>
-                <li><a href="#">אודות</a></li>
-                <li><a href="#">שירותים</a></li>
-                <li><a href="#">צור קשר</a></li>
+                <li>
+                    <a href="">
+                        <div class="burger">
+                            <div class="burger_part"></div>
+                            <div class="burger_part"></div>
+                            <div class="burger_part"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#opening">ראשי</a></li>
+                <li><a href="#about">אודות</a></li>
+                <li><a href="#gallery">עבודות</a></li>
+                <li><a href="#contact">צור קשר</a></li>
             </ul>
         </nav>
         <div>
             <h4>מתן יעקב זכריה <img src="user.png" alt="user"></i></h4>
         </div>
     </div>
-    <div class="section opening">
+    <div class="section opening" id="opening">
         <div class="color_background">    
             <div class="opening_text">
                 <h1>תיק עבודות</h1>
@@ -32,7 +41,7 @@
             </div>
         </div>
     </div>
-    <div class="section about">
+    <div class="section about" id="about">
         <div class="languages">
             <img src="bootstrap.png" alt="bootstrap">
             <img src="css-3.png" alt="css-3">
@@ -49,7 +58,7 @@
             </a>
         </div>
     </div>
-    <div class="section gallery">
+    <div class="section gallery" id="gallery">
         <h3>עבודות נבחרות</h3>
         <div class="triple_container">
             <div class="project_card">
@@ -163,26 +172,8 @@
                 </div>
             </div>
         </div>
-        <div class="triple_container">
-            <div class="project_card">
-                <div class="preview_wrapper">
-                    <div class="preview"></div>
-                </div>
-                <div class="project_text">
-                        <h5></h5>
-                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing</p>
-                    <div class="project_languages">
-                        <img src="html.png" alt="html">
-                        <img src="sass.png" alt="sass">
-                    </div>
-                    <a href="galleryProject\index.html">
-                        <button class="view_project">צפה בפרוייקט</button>
-                    </a>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="section contact">
+    <div class="section contact" id="contact">
         <div class="background_envelope"></div>
         <div class="form_wrapper">
             <h2>צור קשר</h2>

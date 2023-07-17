@@ -59,6 +59,27 @@ nav a:hover {
     background-color: coral;
 }
 
+
+.burger{
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 40px;
+    width: 34px;
+}
+
+.burger>div{    
+    width: inherit;
+    height: 6px;
+    background-color: #a7a7a7;
+    border-radius: 14%;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.burger>div:last-child{
+    margin-bottom: 0px;
+}
+
 button:hover{
     cursor: pointer;
 }

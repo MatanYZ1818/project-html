@@ -4,6 +4,9 @@
         padding: 10px;
         box-sizing: border-box;
     }
+    .opening_text{
+        width: 98%;
+    }
     .triple_container{
         flex-direction: column;
     }
