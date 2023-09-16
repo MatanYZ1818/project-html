@@ -50,6 +50,11 @@ button {
 
 button:hover {
     background-color: #a4d967;
+    cursor: pointer;
+}
+
+button.hidden{
+    cursor: default;
 }
 
 .game_screen{
@@ -74,8 +79,21 @@ button:hover {
     text-align: center;
     position: relative;
     top: -150px;
-    visibility: hidden;
-    transition: 100ms;
+    opacity: 0%;
+    transition: 300ms;
+}
+
+.showCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.showCards>button{
+    width: 110px;
+    height: 175px;
+    margin: 10px;
 }
 
 input, select {
@@ -96,3 +114,7 @@ input, select {
     color: gray;
     margin-bottom: 12px;
 }
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+  }
